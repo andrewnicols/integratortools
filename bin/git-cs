@@ -68,16 +68,7 @@ fi
 # Get the install location (where codechecker is checked out).
 INSTALLDIR=`dirname \`dirname $ME\``
 
-# Add the common directories to our path
-if [ -d $INSTALLDIR/bin ]
-then
-    PATH=$PATH:$INSTALLDIR/bin
-fi
-
-if [ -d $INSTALLDIR/vendor/bin ]
-then
-    PATH=$PATH:$INSTALLDIR/vendor/bin
-fi
+source /Users/nicols/git/integration/tools/bashrc
 
 # Report style - untested with other formats.
 REPORT=full
