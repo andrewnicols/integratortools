@@ -1,0 +1,3 @@
+[submodule "moodle-local_codechecker"]
+	path = moodle-local_codechecker
+	url = git@github.com:moodlehq/moodle-local_codechecker.git
